@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vite-rsc-starter",
+  "main": "./worker/app.ts",
+  "workers_dev": true,
+  "compatibility_date": "2025-10-01",
+  "compatibility_flags": ["nodejs_als"],
+  "vars": {
+    "MESSAGE": "Hello, world!"
+  }
+}
